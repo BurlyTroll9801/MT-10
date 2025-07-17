@@ -1,0 +1,2 @@
+def CapCondition(self):
+    pass

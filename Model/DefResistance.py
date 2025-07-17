@@ -1,0 +1,2 @@
+def DefResistance(self):
+    pass
