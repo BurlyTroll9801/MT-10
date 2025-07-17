@@ -1,2 +1,10 @@
-def CapCondition(self):
-    pass
+import math
+from math import tan
+from math import acos
+
+def CapCondition(Mu, S, DV, Iteration):
+    """Условие захвата"""
+    alpha = acos(1 - (S[Iteration] / DV))
+    
+    CapCon = (Mu >= tan(alpha))
+    return CapCon
