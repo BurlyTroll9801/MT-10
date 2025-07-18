@@ -15,5 +15,5 @@ def FricCoef(MV, MS, V0, TempS):
     elif (MS == 'Austenitic steel'):
         k3 = 1.47
 
-    Mu = k1 * k2 * k3 * (1.05 - 0.0005 * TempS) # TempS - Температура сляба
+    Mu = k1 * k2 * k3 * (1.05 - 0.0005 * TempS) # TempS - Температура сляб
     return Mu
