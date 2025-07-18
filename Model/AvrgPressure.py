@@ -2,7 +2,7 @@ def AvrgPressure(LK, h_average, sigma):
     """Среднее давление на валки"""
     if ((LK/h_average) <= 2):
         n_frict = 1 + (LK/h_average)/6
-    elif (((LK/h_average) > 2) & ((LK/h_average) <= 4)):
+    elif (((LK/h_average) > 2) and ((LK/h_average) <= 4)):
         #Тут формула, в которой я пока не знаю, откуда брать одну переменную
         pass
     elif ((LK/h_average) > 4):
