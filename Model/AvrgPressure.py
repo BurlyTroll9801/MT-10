@@ -1,4 +1,4 @@
-def AvrgPressure(LK, h_average, sigma):
+def AvrgPressure(LK, h_average, sigma) -> float:
     """Среднее давление на валки"""
     if ((LK/h_average) <= 2):
         n_frict = 1 + (LK/h_average)/6
